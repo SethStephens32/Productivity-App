@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --primary-color: #6441A5;
+  --secondary-color: #3d3d3d;
+  --tertiary-color: #212121;
+  --white-color: #fff;
+}
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}

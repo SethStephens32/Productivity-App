@@ -1,0 +1,25 @@
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: var(--tertiary-color);
+    border-bottom: 1px solid var(--primary-color);
+    padding: 0 20px;
+
+    .logo{
+    height: 90px;
+    width: 90px;
+    background-color: var(--tertiary-color);
+}
+
+    .nav-link{
+    font-size: 22px;
+    margin: 0px 10px 0px 10px;
+
+    &:hover{
+        color: var(--white-color);
+    } 
+}
+}
+
