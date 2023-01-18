@@ -22,7 +22,7 @@ const ToDo = () => {
     <div className="todo-container">
         <div className="todo-feature">
       <input ref={inputReset} placeholder={value} onChange={(e) => setValue(e.target.value)} />
-      <button onClick={submitValue}>Add</button>
+      <button onClick={submitValue}>ADD</button>
     </div>
       <div className="todo-list">
       {arr.map(({ todo }) => (

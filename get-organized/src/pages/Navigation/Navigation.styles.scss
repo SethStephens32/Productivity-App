@@ -3,14 +3,12 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: var(--tertiary-color);
-    border-bottom: 1px solid var(--primary-color);
+    box-shadow: 0 0 10px var(--tertiary-color);
     padding: 0 20px;
 
     .logo{
-    height: 90px;
-    width: 90px;
-    background-color: var(--tertiary-color);
+    height: 60px;
+    width: 60px;
 }
 
     .nav-link{

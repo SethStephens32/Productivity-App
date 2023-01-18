@@ -90,7 +90,7 @@ function Particle() {
                     }
                 },
                 "background": {
-                    "color": "#212121"
+                    "color": "#000"
                 }
             }
             }
